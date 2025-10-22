@@ -1,5 +1,5 @@
-function say(message)
+function say(message="I am Aminur Islam")
 {
     console.log(message)
 };
- say("I am Aminur Islam")
+ say("I wanna a web devlopment")
