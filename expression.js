@@ -10,4 +10,6 @@ let person = class
 
 let newPerson=new person("Aminur Islam",18,"Web devloper");
 console.log(newPerson); 
+
+//alada alada kore caile.
 console.log(newPerson.age); 
