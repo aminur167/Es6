@@ -1,0 +1,12 @@
+
+let display = (something) => {
+    console.log(something);
+}
+
+let HigherOrderFun = (Name, Class, CallbackFun) => {
+    console.log("Name:", Name);
+    console.log("Class:", Class);
+    CallbackFun(`Hello ${Name} from class ${Class}`);
+}
+
+HigherOrderFun("Aminur", "10", display);
