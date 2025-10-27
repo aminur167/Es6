@@ -1,0 +1,40 @@
+//Synchronous
+let fun1=()=>
+{
+    console.log("fun1");
+}
+let fun2=()=>
+{
+    console.log("fun2");
+}
+let fun3=()=>
+{
+    console.log("fun3");
+}
+
+fun1()
+fun2()
+fun3()
+
+//Asynchronous
+let fun4=()=>
+{
+    console.log("fun4");
+}
+let loadingTime=()=>
+{
+    console.log("fun5");
+}
+let fun5=()=>
+{
+    console.log(loadingTime,2000);
+}
+let fun6=()=>
+{
+    console.log("fun6");
+}
+
+
+fun4()
+fun5()
+fun6()
