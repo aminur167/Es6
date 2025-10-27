@@ -9,4 +9,3 @@ console.log(fun2(50,30));
 
 let fun3=(x,y)=>x/y;
 console.log(fun3(50,30));
-
